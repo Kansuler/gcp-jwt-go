@@ -9,8 +9,8 @@ addons:
     packages:
       - python-rsa
 env:
-  - GOOGLE_APPLICATION_CREDENTIALS="$GOPATH/src/github.com/someone1/gcp-jwt-go/credentials.json"
-    KMS_TEST_KEYS="$GOPATH/src/github.com/someone1/gcp-jwt-go/kms-test-keys.json"
+  - GOOGLE_APPLICATION_CREDENTIALS="$GOPATH/src/github.com/Kansuler/gcp-jwt-go/credentials.json"
+    KMS_TEST_KEYS="$GOPATH/src/github.com/Kansuler/gcp-jwt-go/kms-test-keys.json"
 before_install:
   - openssl aes-256-cbc -K $encrypted_b9c0b4811a94_key -iv $encrypted_b9c0b4811a94_iv -in secrets.tar.enc -out secrets.tar -d
   - tar xvf secrets.tar
@@ -21,7 +21,7 @@ install:
   - unzip -q /tmp/sdk.zip -d /tmp/sdk
   - export PATH="$PATH:/tmp/sdk/go_appengine"
   - export APPENGINE_DEV_APPSERVER=/tmp/sdk/go_appengine/dev_appserver.py
-  - cd $GOPATH/src/github.com/someone1/gcp-jwt-go
+  - cd $GOPATH/src/github.com/Kansuler/gcp-jwt-go
   - export GO111MODULE="on"
   - curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s -- -b $(go env GOPATH)/bin v1.23.1
 

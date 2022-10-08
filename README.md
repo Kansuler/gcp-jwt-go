@@ -1,4 +1,4 @@
-# gcp-jwt-go [![GoDoc](https://godoc.org/github.com/someone1/gcp-jwt-go?status.svg)](https://godoc.org/github.com/someone1/gcp-jwt-go) [![Go Report Card](https://goreportcard.com/badge/github.com/someone1/gcp-jwt-go)](https://goreportcard.com/report/github.com/someone1/gcp-jwt-go) [![Build Status](https://travis-ci.org/someone1/gcp-jwt-go.svg)](https://travis-ci.org/someone1/gcp-jwt-go) [![Coverage Status](https://coveralls.io/repos/github/someone1/gcp-jwt-go/badge.svg)](https://coveralls.io/github/someone1/gcp-jwt-go)
+# gcp-jwt-go [![GoDoc](https://godoc.org/github.com/Kansuler/gcp-jwt-go?status.svg)](https://godoc.org/github.com/Kansuler/gcp-jwt-go) [![Go Report Card](https://goreportcard.com/badge/github.com/Kansuler/gcp-jwt-go)](https://goreportcard.com/report/github.com/Kansuler/gcp-jwt-go) [![Build Status](https://travis-ci.org/Kansuler/gcp-jwt-go.svg)](https://travis-ci.org/Kansuler/gcp-jwt-go) [![Coverage Status](https://coveralls.io/repos/github/Kansuler/gcp-jwt-go/badge.svg)](https://coveralls.io/github/Kansuler/gcp-jwt-go)
 
 Google Cloud Platform (Cloud KMS, IAM API, & AppEngine App Identity API) jwt-go implementations
 
@@ -28,7 +28,7 @@ Google Cloud KMS [now supports signatures](https://cloud.google.com/kms/docs/cre
 - KeyID() helper functions
 - Basic oauth2.TokenSource and http middleware sub packages for basic service-to-service authentication (currently only supports IAM Api)
 
-To continue using the older version, please import as follows: `import "gopkg.in/someone1/gcp-jwt-go.v1"`
+To continue using the older version, please import as follows: `import "gopkg.in/Kansuler/gcp-jwt-go.v1"`
 
 ### Features
 
@@ -36,7 +36,7 @@ gcp-jwt-go has basic implementations of using [Google Cloud KMS](https://cloud.g
 
 ## Getting Started
 
-Please read the documentation at [https://godoc.org/github.com/someone1/gcp-jwt-go](https://godoc.org/github.com/someone1/gcp-jwt-go)
+Please read the documentation at [https://godoc.org/github.com/Kansuler/gcp-jwt-go](https://godoc.org/github.com/Kansuler/gcp-jwt-go)
 
 ## Performance
 
